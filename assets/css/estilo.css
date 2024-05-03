@@ -11,6 +11,7 @@
 .subtitulo{
     text-align: justify;
     font-size: x-large;
+    color: black;
 }
 
 
@@ -18,3 +19,12 @@
     float: left;
     width: 55%; 
 }
+
+
+.destaque:hover{
+background-color: rgba(23, 75, 218, 0.801);
+padding: 5px;
+border-radius: 10%;
+}
+
+
