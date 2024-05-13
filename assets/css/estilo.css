@@ -1,6 +1,3 @@
-
-
-
 .titulo{
     text-align: justify;
     text-align: center;
@@ -27,4 +24,15 @@ padding: 5px;
 border-radius: 10%;
 }
 
+.instagram-video {
+    width: 100%; /* Defina a largura desejada para os vídeos */
+    max-width: 300px; /* Defina a largura máxima para os vídeos */
+    margin: 0 auto; /* Centralize os vídeos horizontalmente */
+    margin-bottom: 20px; /* Adicione margem na parte inferior para espaçamento */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adicione uma sombra suave */
+    border-radius: 10px; /* Adicione bordas arredondadas */
+}
 
+.instagram-video iframe {
+    border-radius: 10px; /* Adicione bordas arredondadas ao vídeo */
+}
