@@ -644,7 +644,9 @@ section {
   text-align: center;
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
-  background: #fff;
+  background: #e7270507;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .services .icon-box .icon {
@@ -657,6 +659,13 @@ section {
   transition: ease-in-out 0.3s;
   position: relative;
 }
+
+/* Adicionando o efeito de elevação */
+.services .icon-box:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+
 
 .services .icon-box .icon i {
   font-size: 36px;
@@ -958,18 +967,17 @@ section {
   border-bottom: 1px solid #ececec;
   overflow: hidden;
   background: #fff;
-  height: 100px;
+  height: 120px;
 }
 
 .clients .client-logo img {
   transition: all 0.3s ease-in-out;
-  height: 36px;
-  filter: grayscale(100%);
+  height: 40px;
 }
 
 .clients .client-logo:hover img {
   filter: none;
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 /*--------------------------------------------------------------
